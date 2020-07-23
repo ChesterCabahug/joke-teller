@@ -41,4 +41,8 @@ getJokes = async() => {
     }
 }
 
-getJokes()
+
+
+// event listeners
+
+button.addEventListener("click", getJokes)
